@@ -1,0 +1,36 @@
+
+.tableRowDark {
+  background-color: #DDDDDD;
+}
+
+.tableRowLight {
+  background-color: #FFFFFF;
+}
+
+.tableElements, .tableElements tr, .tableElements tr th, .tableElements tr td {
+  font-size: 14px;
+  border: 2px solid black;
+  border-collapse: collapse;
+  min-width: 100px;
+  font-weight: bold;
+}
+
+th.tableElements, .tableElements th{
+  color: white;
+  background-color: #794D2A;
+}
+
+#submitButton {
+  position: fixed;
+  bottom: 2%;
+  right: 3%;
+  width: 10%;
+  min-width: 120px !important;
+  height: 8%;
+  border: 3px solid #613512;
+  border-radius: 8px;
+  background-color: #794D2A;
+  color: #EEEEEE !important;
+  font-weight: bold;
+  font-size: 1.5em;
+}
