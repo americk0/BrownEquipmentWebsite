@@ -11,7 +11,7 @@ In order to connect to a database named 'test' on a server named 'test.com' with
 <?php //connects to the database
   $server = 'test.com';
   $username = 'me';
-  $password = 'letmein';
+  $password = 'letmein'; //seriously, don't use letmein
   $db = 'test';
 
   $conn = new mysqli($server, $username, $password);
